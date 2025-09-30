@@ -1,0 +1,68 @@
+/* Muscle map - container */
+.muscle-map {
+    position: fixed;
+    top: 15vh;
+    left: 50vw;
+    transform: translateX(-50%);
+    height: 70vh;
+    max-height: 70vh;
+    width: auto;
+    max-width: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+
+    box-sizing: border-box;
+}
+
+/* Muscle maps*/
+.muscle-map .muscles-front,
+.muscle-map .muscles-back {
+    height: 100%;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.muscle-map .muscles-back svg,
+.muscle-map .muscles-front svg {
+    height: 100%;
+    width: auto;
+}
+
+/* Path */
+.muscle-map path {
+    fill: #ff8787;
+    transition: fill 0.2s;
+    cursor: pointer;
+}
+
+.muscle-map path:hover {
+    fill: #ff6666;
+}
+
+
+/* Silhouettes */
+#silhouette-front,
+#silhouette-back {
+    fill: white;
+    cursor: auto;
+}
+
+/* Background */
+.background-circle {
+    position: fixed;
+    z-index: -1;
+    height: 95vh;
+    width: 95vh;
+
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: rgb(40,40,40);
+}
+

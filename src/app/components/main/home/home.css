@@ -1,0 +1,9 @@
+app-muscle-map {
+    position: fixed;
+    z-index: 0;
+}
+
+app-exercise {
+    position: fixed;
+    z-index: 1;
+}
