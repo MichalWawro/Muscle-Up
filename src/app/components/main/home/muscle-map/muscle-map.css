@@ -16,6 +16,11 @@
     gap: 3vw;
 
     box-sizing: border-box;
+    transition: left 0.5s ease;
+}
+
+.muscle-map.active {
+    left: 40vw;
 }
 
 /* Muscle maps*/
@@ -46,6 +51,9 @@
     fill: #ff6666;
 }
 
+.muscle-map path.active {
+    fill: #ff5b5b;
+}
 
 /* Silhouettes */
 #silhouette-front,
@@ -63,6 +71,5 @@
 
     border: 0px solid;
     border-radius: 50%;
-    background-color: rgb(40,40,40);
+    background-color: rgb(40, 40, 40);
 }
-

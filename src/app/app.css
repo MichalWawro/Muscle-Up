@@ -1,4 +1,6 @@
-app-header {
+app-header,
+app-exercise,
+app-footer {
     position: fixed;
     z-index: 1;
 }
@@ -11,9 +13,4 @@ app-home {
 app-background {
     position: fixed;
     z-index: -1;
-}
-
-app-footer {
-    position: fixed;
-    z-index: 1
 }

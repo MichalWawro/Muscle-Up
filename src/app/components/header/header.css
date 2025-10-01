@@ -42,13 +42,18 @@
 
 .header button:hover {
     background-size: 100% 100%;
-    color: white
+    color: white;
+    /* color: rgb(235, 220, 180); */
 }
 
 .header button.active {
     background-size: 100% 100%;
     color: white;
 }
+
+/* .header button.active:hover {
+    color: rgb(235, 220, 180);
+} */
 
 /* .header:hover button.active:not(:hover) { */
 .header:has(button:hover) button.active:not(:hover) {

@@ -1,5 +1,5 @@
 import { Component, computed, inject } from '@angular/core';
-import { MuscleService } from '../../../../../services/muscle-service/muscle-service';
+import { MuscleService } from '../../services/muscle-service/muscle-service';
 
 @Component({
   selector: 'app-exercise',

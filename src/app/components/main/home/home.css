@@ -1,11 +1,8 @@
-app-muscle-map {
+/* Home */
+.home {
     position: fixed;
-    z-index: 0;
-}
-
-app-exercise {
-    position: fixed;
-    z-index: 1;
+    height: 100vh;
+    width: 100vw;
 }
 
 /* Animation */
