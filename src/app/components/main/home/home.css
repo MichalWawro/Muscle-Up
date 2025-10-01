@@ -7,3 +7,22 @@ app-exercise {
     position: fixed;
     z-index: 1;
 }
+
+/* Animation */
+.slide-in-right {
+    @starting-style {
+        transform: translateX(100%);
+    }
+
+    transform: translateX(0%);
+    transition: transform 0.3s linear;
+}
+
+.slide-in-left {
+    @starting-style {
+        transform: translateX(-100%);
+    }
+
+    transform: translateX(0%);
+    transition: transform 0.3s linear;
+}

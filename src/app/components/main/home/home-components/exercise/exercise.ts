@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, computed, inject } from '@angular/core';
+import { MuscleService } from '../../../../../services/muscle-service/muscle-service';
 
 @Component({
   selector: 'app-exercise',
@@ -7,5 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './exercise.css'
 })
 export class Exercise {
-
+  private muscleService = inject(MuscleService);
+  selectedMuscle = this.muscleService.selectedMuscle;
 }

@@ -12,6 +12,8 @@
 .circle {
     position: absolute;
     border-radius: 50%;
+
+    transition: background-color 0.75s ease-in-out;
 }
 
 .circle1 {
@@ -34,7 +36,32 @@
     opacity: 1;
 }
 
+/* Background Color */
+.background.about .circle1 {
+    background-color: rgb(68, 196, 68);
+}
+
+.background.about .circle2 {
+    background-color: rgb(128, 223, 128);
+}
+
+.background.home .circle1 {
+    background-color: red;
+}
+
+.background.home .circle2 {
+    background-color: rgb(255, 152, 152);
+}
+
 /* Animation */
+.circle1 {
+    animation: float 7s ease-in-out infinite;
+}
+
+.circle2 {
+    animation: float 6s ease-in-out infinite;
+}
+
 @keyframes float {
     0% {
         transform: translate(-10px, 0px);
@@ -48,12 +75,3 @@
         transform: translate(-10px, 0px);
     }
 }
-
-.circle1 {
-    animation: float 7s ease-in-out infinite;
-}
-
-.circle2 {
-    animation: float 6s ease-in-out infinite;
-}
-

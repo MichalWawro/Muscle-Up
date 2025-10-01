@@ -15,3 +15,22 @@
     line-height: 32px;
     margin-bottom: -10px;
 }
+
+/* Animation */
+.slide-in-left {
+    @starting-style {
+        transform: translateX(-100%);
+    }
+
+    transform: translateX(0%);
+    transition: transform 0.3s linear;
+}
+
+.slide-in-right {
+    @starting-style {
+        transform: translateX(100%);
+    }
+
+    transform: translateX(0%);
+    transition: transform 0.3s linear;
+}
