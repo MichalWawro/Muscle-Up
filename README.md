@@ -1,59 +1,32 @@
-# MuscleUp
+# MuscleUp!
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.3.
+**MuscleUp!** is a responsive and dynamic web application designed to help you craft the perfect workout plan depending on which muscle group you want to focus on.
+The app combines an interactive muscle map, animated UI elements, and a simple Spring Boot backend serving exercises from a CSV file.
 
-## Development server
+## Features:
+  - Animated & interactive Muscle Map - select muscle groups and get tailored exercises.
+  - Navigation Bar with Profile, Home and About section, to help you navigate around the app.
+  - Animated background for a more dynamic user experience.
+  - Footer with hints section - training is cool and all, but did you know... 
+  - Profile section (Try username: admin, password: admin).
+  - About section, where you can learn more about our application. 
 
-To start a local development server, run:
-
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Tech stack:
+  - **Frontend:** Angular 20, TypeScript, RxJS, HTML5, CSS3,
+  - **Backend:** Java 17, Spring Boot, Maven,
+  - **Other:** RESTful API integration
+  
+## Application setup:
+1. **Requirements:**
+  - Node.js (v18+) and npm,
+  - Angular CLI (npm install -g @angular/cli),
+  - Java 17+,
+  - Maven 3.9+
+2. **Clone the repository**
+  Run `git clone https://github.com/MichalWawro/Muscle-Up.git` to clone the repository,
+3. **Backend setup**
+  In the 'server' folder run the command `mvn spring-boot:run`,
+4. **Frontend Setup**
+  In the 'client' folder run the command `ng serve`,
+5. **Try the application yourself**
+  If set up correctly, the application you should be able to open the app on http://localhost:4200 in your browser.
