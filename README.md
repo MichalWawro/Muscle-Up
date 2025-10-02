@@ -5,11 +5,28 @@ The app combines an interactive muscle map, animated UI elements, and a simple S
 
 ## Features:
   - Animated & interactive Muscle Map - select muscle groups and get tailored exercises.
+
+    
   - Navigation Bar with Profile, Home and About section, to help you navigate around the app.
+    
+    ![navigation-gif](https://github.com/user-attachments/assets/1a6e6399-cc12-48c8-afce-7164867ffa67)
+
+  - Footer with hints section - training is cool and all, but did you know...
+    
+    ![hint-gif](https://github.com/user-attachments/assets/b431929f-ead1-40be-86d5-4fbd5eda9617)
+
   - Animated background for a more dynamic user experience.
-  - Footer with hints section - training is cool and all, but did you know... 
+    
+    ![background-gif](https://github.com/user-attachments/assets/0828f8e1-22f5-41c8-a738-3528ef9a0f08)
+
   - Profile section (Try username: admin, password: admin).
-  - About section, where you can learn more about our application. 
+    
+    ![login-gif](https://github.com/user-attachments/assets/779fdba5-16f2-485c-a141-2a84a5663085)
+
+  - About section, where you can learn more about our application.
+    
+    ![about-gif](https://github.com/user-attachments/assets/63aa13e1-3945-4a5c-8136-b3f8a9bc5326)
+
 
 ## Tech stack:
   - **Frontend:** Angular 20, TypeScript, RxJS, HTML5, CSS3,
