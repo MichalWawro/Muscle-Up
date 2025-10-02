@@ -1,0 +1,27 @@
+.about {
+    position: fixed;
+    top: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about h1 {
+    margin-bottom: 0px;
+}
+
+.about p {
+    line-height: 32px;
+    margin-bottom: -10px;
+}
+
+/* Animation */
+.slide-in-right {
+    @starting-style {
+        transform: translateX(100%);
+    }
+
+    transform: translateX(0%);
+    transition: transform 0.3s linear;
+}

@@ -1,0 +1,5 @@
+<div class="header">
+    <button [class.active]="currentPage === 'profile'" (click)="setCurrentPage('profile')" routerLink="profile">Profile</button>
+    <button [class.active]="currentPage === 'home'" (click)="setCurrentPage('home')" routerLink="home">MuscleUp!</button>
+    <button [class.active]="currentPage === 'about'" (click)="setCurrentPage('about')" routerLink="about">About</button>
+</div>
