@@ -36,7 +36,6 @@
 
     background-color: rgb(255, 152, 152);
     color: rgb(40, 40, 40);
-    border-bottom: 2px solid rgb(40, 40, 40);
 }
 
 .exercise h3 {
@@ -45,6 +44,7 @@
 
     text-align: center;
     background-color: rgb(65, 65, 65);
+    
     color: white;
 }
 
@@ -52,11 +52,14 @@
     flex: 1;
     display: flex;
     flex-direction: column;
+
+    font-size: 16px;
+    font-weight: 500;
 }
 
 .exercise-detail .rep {
     padding: 1vh;
-    border-bottom: 1px solid rgb(40, 40, 40);
+    background-color: #ff8787;
 }
 
 .exercise-detail .desc {

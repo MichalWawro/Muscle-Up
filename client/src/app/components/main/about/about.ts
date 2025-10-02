@@ -13,7 +13,7 @@ export class About implements CanComponentDeactivate {
   canDeactivate(): Promise<boolean> {
     const root = this.host.nativeElement.querySelector('.about') ?? this.host.nativeElement;
 
-    const anim = root.animate([{ transform: 'translateX(0%)' }, { transform: 'translateX(100%)' }], { duration: 300, easing: 'linear' })
+    const anim = root.animate([{ transform: 'translateX(0%)' }, { transform: 'translateX(100%)' }], { duration: 400, easing: 'ease' })
     return anim.finished.then(() => true).catch(() => true);
   }
 }

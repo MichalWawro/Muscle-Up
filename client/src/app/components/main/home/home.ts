@@ -33,7 +33,7 @@ export class Home implements CanComponentDeactivate {
     const anim = root.animate([
       { transform: 'translateX(0%)' },
       this.routeDirection.direction() === "left" ? { transform: 'translateX(100%)' } : { transform: 'translateX(-100%)' }
-    ], { duration: 300, easing: 'linear' })
+    ], { duration: 400, easing: 'ease' })
 
     return anim.finished.then(() => true).catch(() => true);
   }

@@ -12,6 +12,10 @@ export class MuscleMap {
   selectedMuscle = this.muscleService.selectedMuscle;
 
   selectMuscle(muscle: string) {
-    this.muscleService.selectedMuscle.set(muscle);
+    if (muscle === this.selectedMuscle()) {
+      this.muscleService.selectedMuscle.set('');
+    } else {
+      this.muscleService.selectedMuscle.set(muscle);
+    }
   }
 }

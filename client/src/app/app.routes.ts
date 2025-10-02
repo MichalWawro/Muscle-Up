@@ -20,5 +20,9 @@ export const routes: Routes = [
         path: 'about',
         component: About,
         canDeactivate: [AnimationGuard]
+    },
+    {
+        path: '**',
+        redirectTo: 'home'
     }
 ];

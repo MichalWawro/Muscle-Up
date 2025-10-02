@@ -1,3 +1,16 @@
 <div class="profile" animate.enter="slide-in-left">
-    <p>profile works!</p>
+    <div class="background-circle"></div>
+    <div class="profile-container" [class.active]="loggedIn">
+        <div class="profile-picture"></div>
+        <h2>{{name}}</h2>
+        <p>Birthday: {{birthday}}</p>
+        <button (click)="logout()">Log Out</button>
+    </div>
+
+    <div class="profile-container" [class.active]="!loggedIn">
+        <h2>Login</h2>
+        <input [(ngModel)]="username" placeholder="Username" />
+        <input [(ngModel)]="password" type="password" placeholder="Password" />
+        <button (click)="login()">Login</button>
+    </div>
 </div>

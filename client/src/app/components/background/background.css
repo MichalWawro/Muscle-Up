@@ -16,7 +16,7 @@
     transition: background-color 0.75s ease-in-out;
 }
 
-.circle1 {
+.main1 {
     width: 800px;
     height: 800px;
     top: 10%;
@@ -26,7 +26,7 @@
     opacity: 0.2;
 }
 
-.circle2 {
+.main2 {
     width: 400px;
     height: 400px;
     bottom: 0%;
@@ -36,41 +36,75 @@
     opacity: 1;
 }
 
+.left {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 10%;
+
+    background-color: red;
+    opacity: 1;
+}
+
+.right {
+    width: 500px;
+    height: 500px;
+    top: -10%;
+    right: 0%;
+
+    background-color: rgb(255, 152, 152);
+    opacity: 0.2;
+}
+
 /* Background Color */
-.background.profile .circle1 {
+.background.profile .main1,
+.background.profile .right {
     background-color: rgb(0, 110, 255);
 }
 
-.background.profile .circle2 {
+.background.profile .main2,
+.background.profile .left {
     background-color: rgb(141, 190, 255);
 }
 
-.background.home .circle1 {
+.background.home .main1,
+.background.home .right {
     background-color: red;
 }
 
-.background.home .circle2 {
+.background.home .main2,
+.background.home .left {
     background-color: rgb(255, 152, 152);
 }
 
-.background.about .circle1 {
+.background.about .main1,
+.background.about .right {
     background-color: rgb(68, 196, 68);
 }
 
-.background.about .circle2 {
+.background.about .main2,
+.background.about .left {
     background-color: rgb(149, 255, 149);
 }
 
 /* Animation */
-.circle1 {
-    animation: float 7s ease-in-out infinite;
+.main1 {
+    animation: float1 7s ease-in-out infinite;
 }
 
-.circle2 {
-    animation: float 6s ease-in-out infinite;
+.main2 {
+    animation: float1 6s ease-in-out infinite;
 }
 
-@keyframes float {
+.left {
+    animation: float1 6s ease-in-out infinite;
+}
+
+.right {
+    animation: float2 7s ease-in-out infinite;
+}
+
+@keyframes float1 {
     0% {
         transform: translate(-10px, 0px);
     }
@@ -81,5 +115,19 @@
 
     100% {
         transform: translate(-10px, 0px);
+    }
+}
+
+@keyframes float2 {
+    0% {
+        transform: translate(-5px, 5px);
+    }
+
+    50% {
+        transform: translate(0px, -10px);
+    }
+
+    100% {
+        transform: translate(-5px, 5px);
     }
 }
