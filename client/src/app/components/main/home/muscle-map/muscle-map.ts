@@ -8,12 +8,10 @@ import { MuscleService } from '../../../../services/muscle-service/muscle-servic
   styleUrl: './muscle-map.css'
 })
 export class MuscleMap {
-  // constructor(private muscleService: MuscleService) { }
   private muscleService = inject(MuscleService);
   selectedMuscle = this.muscleService.selectedMuscle;
 
   selectMuscle(muscle: string) {
-    console.log(muscle);
     this.muscleService.selectedMuscle.set(muscle);
   }
 }

@@ -1,17 +1,35 @@
-<div class="exercise" [class.active]="selectedMuscle() != ''">
-    <div class="rep">
-        <h3>Name</h3>
-        <p>Rep Count</p>
-        <p>Opis</p>
+<div class="exerciseBar" [class.active]="currentMuscle() != ''">
+    <div class="muscle">
+        <h2>{{lastMuscleName()}}</h2>
     </div>
-    <div class="rep">
-        <h3>Name</h3>
-        <p>Rep Count</p>
-        <p>Opis</p>
+    <div class="exercise">
+        <h3>{{exercises[0]?.name}}</h3>
+        <div class="exercise-detail">
+            <span class="rep">Rep Count: {{exercises[0]?.repRange}}</span>
+            <div class="desc">
+                <span>Description:</span>
+                <span>{{exercises[0]?.description}}</span>
+            </div>
+        </div>
     </div>
-    <div class="rep">
-        <h3>Name</h3>
-        <p>Rep Count</p>
-        <p>Opis</p>
+    <div class="exercise">
+        <h3>{{exercises[1]?.name}}</h3>
+        <div class="exercise-detail">
+            <span class="rep">Rep Count: {{exercises[1]?.repRange}}</span>
+            <div class="desc">
+                <span>Description:</span>
+                <span>{{exercises[1]?.description}}</span>
+            </div>
+        </div>
+    </div>
+    <div class="exercise">
+        <h3>{{exercises[2]?.name}}</h3>
+        <div class="exercise-detail">
+            <span class="rep">Rep Count: {{exercises[2]?.repRange}}</span>
+            <div class="desc">
+                <span>Description:</span>
+                <span>{{exercises[2]?.description}}</span>
+            </div>
+        </div>
     </div>
 </div>

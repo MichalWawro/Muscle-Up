@@ -1,24 +1,66 @@
-.exercise {
+.exerciseBar {
     position: fixed;
     top: 8vh;
     right: -18vw;
-    height: 84vh;
     width: 18vw;
+    height: 84vh;
+
     display: flex;
     flex-direction: column;
 
     background-color: white;
+    border-left: 2px solid rgb(40, 40, 40);
+
     transition: right 0.5s ease;
 }
 
-.exercise.active {
-    right: 0vw;
+.exerciseBar.active {
+    right: 0;
 }
 
-.rep {
-    height: 100%;
+.muscle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(40, 40, 40);
+    color: white;
+    border-bottom: 2px solid rgb(40, 40, 40);
+}
+
+.exercise {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    border-left: 2px solid rgb(40, 40, 40);
+    text-align: center;
+
+    background-color: rgb(255, 152, 152);
+    color: rgb(40, 40, 40);
+    border-bottom: 2px solid rgb(40, 40, 40);
+}
+
+.exercise h3 {
+    margin: 0;
+    padding: 1vh 0;
+
+    text-align: center;
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+
+.exercise-detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.exercise-detail .rep {
+    padding: 1vh;
+    border-bottom: 1px solid rgb(40, 40, 40);
+}
+
+.exercise-detail .desc {
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
 }
