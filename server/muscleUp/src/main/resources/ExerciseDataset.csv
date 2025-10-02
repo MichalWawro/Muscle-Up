@@ -1,0 +1,67 @@
+id,name,repRange,muscle,description
+0,Crunch,6-8,abs,Curl upper body toward knees.
+1,Hanging Leg Raise,8-10,abs,Lift legs upward while hanging.
+2,Plank,10-12,abs,Hold body straight on forearms.
+3,Russian Twist,6-8,obliques,Rotate torso side to side while holding weight. Legs slightly above the ground.
+4,Side Plank,8-10,obliques,Hold body sideways supported on forearm.
+5,Cable Woodchopper,10-12,obliques,Pull cable diagonally across body.
+6,Incline Barbell Bench Press,6-8,upper-chest,Press barbell on an incline bench.
+7,Incline Dumbbell Press,8-10,upper-chest,Press dumbbells upward at 30° - 45° incline.
+8,Low-to-Hight Cable Fly,10-12,upper-chest,Pull cables upward in an arc to chest height.
+9,Flat Barbell Bench Press,6-8,middle-chest,Press barbell from chest on flat bench.
+10,Flat Dumbbell Press,8-10,middle-chest,Press dumbbells from chest on flat bench.
+11,Pec Dech Machine,10-12,middle-chest,Bring arms together in front of chest.
+12,Decline Barbell Bench Press,6-8,lower-chest,Press barbell on a decline bench.
+13,Decline Dumbbless Press,8-10,lower-chest,Press dumbbells downward from chest.
+14,Cable Crossover (High to Low),10-12,lower-chest,Pull cables downward across torso.
+15,Barbell Curl,6-8,biceps,Curl barbell upward to chest.
+16,Dumbbell Alternating Curl,8-10,biceps,Curl dumbbells one at a time.
+17,Hammer Curl,10-12,biceps,Curl dumbbells with neutral grip.
+18,Close-Grip Bench Press,6-8,triceps,Press barbell with narrow grip.
+19,Overhead Dumbbell Extension,8-10,triceps,Extend dumbbell overhead.
+20,Tricep Pushdown,10-12,triceps,Push rope or bar down on cable.
+21,Wrist Curl,6-8,forearms,Flex wrists with barbell or dumbbells.
+22,Reverse Wrist Curl,8-10,forearms,Extend wrists with barbell.
+23,Farmer’s Carry,10-12,forearms,Walk holding heavy dumbbells.
+24,Barbell Overhead Press,6-8,front-deltoids,Press barbell overhead from shoulders.
+25,Dumbbell Front Raise,8-10,front-deltoids,Lift dumbbells straight in front.
+26,Arnold Press,10-12,front-deltoids,Rotate dumbbells overhead from chest level.
+27,Reverse Pec Deck,6-8,rear-deltoids,Move arms backward on the machine.
+28,Bent-Over Dumbbell Reverse Fly,8-10,rear-deltoids,Lift dumbbells out to sides while bent.
+29,Face Rope Pull,10-12,rear-deltoids,Pull rope attachment to face height.
+30,Barbell Shrug,6-8,upper-traps,Elevate shoulders with barbell.
+31,Dumbbell Shrug,8-10,upper-traps,Elevate shoulders holding dumbbells.
+32,Upright Row,10-12,upper-traps,Pull barbell or dumbbells up to chest.
+33,Prone Y Raise,6-8,lower-traps,Raise arms in Y shape while lying face down.
+34,Face Pull with External Rotation,8-10,lower-traps,Pull rope high with rotation.
+35,Scapular Depression (Lat Pulldown Hold),10-12,lower-traps,Pull shoulders down against the bar.
+36,Pull-Up,6-8,lats,Pull body upward on bar.
+37,Lat Pulldown,8-10,lats,Pull bar down to chest.
+38,Dumbbell Row,10-12,lats,Row dumbbell to torso from bent position.
+39,Seated Cable Row,6-8,rhomboids,Pull handle to torso.
+40,T-Bar Row,8-10,rhomboids,Row barbell toward chest.
+41,Rear Delt Row,10-12,rhomboids,Row dumbbells outward to sides.
+42,Barbell Deadlift,6-8,lower-back,Lift barbell from floor to standing.
+43,Hyperextension,8-10,lower-back,Extend torso upward on hyper bench.
+44,Good Morning,10-12,lower-back,Bend forward with barbell on back.
+45,Side-Lying Leg Raise,6-8,gluteus-medius,Lift top leg upward while lying sideways.
+46,Cable Hip Abduction,8-10,gluteus-medius,Move leg outward with cable strap to your ankle.
+47,Banded Lateral Walks,10-12,gluteus-medius,Step sideways with resistance band around your ankles.
+48,Barbell Hip Thrust,6-8,gluteus-maximus,Push hips upward with barbell.
+49,Glute Bridge,8-10,gluteus-maximus,Push hips upward with weight or your bodyweight.
+50,Romanian Deadlift,10-12,gluteus-maximus,Lower and raise barbell with hips hinging.
+51,Barbell Back Squat,6-8,quads,Squat with barbell on back.
+52,Leg Press,8-10,quads,Push sled away with legs.
+53,Bulgarian Split Squat,10-12,quads,Lunge with rear foot elevated.
+54,Romanian Deadlift,6-8,hamstrings,Hinge forward with barbell.
+55,Lying Leg Curl,8-10,hamstrings,Curl legs upward on machine.
+56,Nordic Hamstring Curl,10-12,hamstrings,Lower body slowly from kneeling.
+57,Seated Hip Adduction Machine,6-8,adductors,Squeeze legs inward on machine.
+58,Side-Lying Hip Adduction,8-10,adductors,Lift bottom leg upward sidewats.
+59,Copenhagen Plank,10-12,adductors,Hold side plank with inner thigh support.
+60,Seated Hip Abduction Machine,6-8,abductors,Push legs outward on machine.
+61,Standing Cable Abduction,8-10,abductors,Move leg outward against cable.
+62,Clamshell,10-12,abductors,Open knees outward with band while lying.
+63,Standing Calf Raise,6-8,calves,Raise heels upward standing.
+64,Seated Calf Raise,8-10,calves,Push through tose while seated.
+65,Donkey Calf Raise,10-12,calves,Raise heels with hips bent.
