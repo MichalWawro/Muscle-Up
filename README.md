@@ -41,10 +41,17 @@ The app combines an interactive muscle map, animated UI elements, and a simple S
   - Java 17+,
   - Maven 3.9+
 2. **Clone the repository**
+
   Run `git clone https://github.com/MichalWawro/Muscle-Up.git` to clone the repository,
+  
 3. **Backend setup**
+
   In the 'server' folder run the command `mvn spring-boot:run`,
+  
 4. **Frontend Setup**
+  
   In the 'client' folder run the command `ng serve`,
+  
 5. **Try the application yourself**
-  If set up correctly, the application you should be able to open the app on http://localhost:4200 in your browser.
+  
+  If set up correctly, you should be able to open the app on http://localhost:4200 in your browser.
